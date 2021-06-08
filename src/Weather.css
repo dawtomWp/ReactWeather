@@ -1,0 +1,25 @@
+.Clouds, .Snow , .Tornado , .Squall , .Smoke , .Thunderstorm , .Drizzle , .Rain, .Clear, .Mist , .Haze , .Smoke , .Dust , .Fog , .Ash {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+.Clouds {
+    background-image: url("./images/scattered.png");  
+   
+}
+.Snow {
+    background-image: url("./images/snow.png");   
+}
+.Tornado , .Squall , .Smoke , .Thunderstorm {
+    background-image: url("./images/storm.png");   
+}
+.Drizzle , .Rain {
+    background-image: url("./images/drizzle.png");   
+}
+.Clear {
+    background-image: url("./images/clear.png");   
+}
+.Mist , .Haze , .Smoke , .Dust , .Fog , .Ash{
+    background-image: url("./images/mist.png");   
+}

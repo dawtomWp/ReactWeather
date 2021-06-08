@@ -1,0 +1,98 @@
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #5959f1;
+  background: linear-gradient(170deg, #5959f1 20%, #ffa149 98%);
+}
+
+.wrapper .banner {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .wrapper .banner {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper .banner {
+    width: 40%;
+  }
+}
+
+.wrapper .desc {
+  font-weight: 100;
+  color: white;
+  position: absolute;
+  top: 0;
+  font-size: 12px;
+}
+
+.wrapper .wrapperTitle {
+  text-align: center;
+  font-size: 34px;
+  color: white;
+}
+
+.wrapper .wrapperTitle span {
+  color: var(--primary);
+}
+
+.wrapper .buttonsWrapper button {
+  margin: 10px 10px;
+}
+
+.primaryButton, .secondaryButton {
+  padding: 15px 25px;
+  width: 160px;
+  color: white;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(150, 104, 4, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(150, 104, 4, 0.37);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.primaryButton:hover, .secondaryButton:hover {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+.primaryButton::before, .secondaryButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-transform: skewX(45deg) translateX(175px);
+          transform: skewX(45deg) translateX(175px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.primaryButton:hover::before, .secondaryButton:hover::before {
+  -webkit-transform: skewX(45deg) translateX(-150px);
+          transform: skewX(45deg) translateX(-150px);
+}

@@ -1,0 +1,79 @@
+.wrapper {
+    display: flex;
+    min-height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(89,89,241);
+    background: linear-gradient(170deg, rgba(89,89,241,1) 20%, rgba(255,161,73,1) 98%);
+
+    @media (max-width:768px) {
+          min-height: 100vh;
+      }
+    .banner {
+       width: 90%;
+       margin-bottom: 30px;
+
+       @media (min-width: 768px) {
+           width: 60%;
+       }
+       @media (min-width: 1024px) {
+        width: 40%;
+    }
+
+    }
+    .desc {
+        font-weight: 100;
+        color: white;
+        top: 0;
+        font-size:12px;
+    }
+
+    .wrapperTitle {
+        text-align: center;
+        font-size: 34px;
+        color: white;
+
+        & span {
+            color:var(--primary)
+        }
+    }
+    .buttonsWrapper {
+       
+        & button {
+            margin: 10px 10px;
+        }
+    }
+}
+.primaryButton, .secondaryButton {
+    padding: 15px 25px;
+    width: 160px;
+    color: white;
+    cursor: pointer;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba(150, 104, 4, 0.37);
+    backdrop-filter: blur( 3.0px );
+    border-radius: 8px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: 0.5s;
+    overflow:hidden;
+
+    &:hover {
+        transform: translateY(-20px)
+    }
+}
+.primaryButton::before, .secondaryButton::before {
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    transform: skewX(45deg) translateX(175px);
+    transition: 0.5s;
+}
+ 
+.primaryButton:hover::before, .secondaryButton:hover::before {
+    transform: skewX(45deg) translateX(-150px);
+}
