@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dawtomWp/ReactWeather/static/css/main.c021f964.chunk.css",
+    "main.js": "/dawtomWp/ReactWeather/static/js/main.d623abe1.chunk.js",
+    "main.js.map": "/dawtomWp/ReactWeather/static/js/main.d623abe1.chunk.js.map",
+    "runtime-main.js": "/dawtomWp/ReactWeather/static/js/runtime-main.515afe10.js",
+    "runtime-main.js.map": "/dawtomWp/ReactWeather/static/js/runtime-main.515afe10.js.map",
+    "static/js/2.7a43ec14.chunk.js": "/dawtomWp/ReactWeather/static/js/2.7a43ec14.chunk.js",
+    "static/js/2.7a43ec14.chunk.js.map": "/dawtomWp/ReactWeather/static/js/2.7a43ec14.chunk.js.map",
+    "index.html": "/dawtomWp/ReactWeather/index.html",
+    "static/css/main.c021f964.chunk.css.map": "/dawtomWp/ReactWeather/static/css/main.c021f964.chunk.css.map",
+    "static/js/2.7a43ec14.chunk.js.LICENSE.txt": "/dawtomWp/ReactWeather/static/js/2.7a43ec14.chunk.js.LICENSE.txt",
+    "static/media/Weather.css": "/dawtomWp/ReactWeather/static/media/storm.a1f46c92.png",
+    "static/media/weatherMain.a0502de9.png": "/dawtomWp/ReactWeather/static/media/weatherMain.a0502de9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.515afe10.js",
+    "static/js/2.7a43ec14.chunk.js",
+    "static/css/main.c021f964.chunk.css",
+    "static/js/main.d623abe1.chunk.js"
+  ]
+}
