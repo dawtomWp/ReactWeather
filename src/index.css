@@ -15,6 +15,7 @@ body {
   display: flex;
   min-height: 100vh;
   background: rgb(232, 232, 232);
+  background:red;
   justify-content: center;
   align-items: center;
   margin: 0;
