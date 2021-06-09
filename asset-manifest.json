@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Weather-App-React/static/css/main.1b806c6a.chunk.css",
-    "main.js": "/Weather-App-React/static/js/main.d623abe1.chunk.js",
-    "main.js.map": "/Weather-App-React/static/js/main.d623abe1.chunk.js.map",
-    "runtime-main.js": "/Weather-App-React/static/js/runtime-main.225c7cb5.js",
-    "runtime-main.js.map": "/Weather-App-React/static/js/runtime-main.225c7cb5.js.map",
-    "static/js/2.7a43ec14.chunk.js": "/Weather-App-React/static/js/2.7a43ec14.chunk.js",
-    "static/js/2.7a43ec14.chunk.js.map": "/Weather-App-React/static/js/2.7a43ec14.chunk.js.map",
-    "index.html": "/Weather-App-React/index.html",
-    "static/css/main.1b806c6a.chunk.css.map": "/Weather-App-React/static/css/main.1b806c6a.chunk.css.map",
-    "static/js/2.7a43ec14.chunk.js.LICENSE.txt": "/Weather-App-React/static/js/2.7a43ec14.chunk.js.LICENSE.txt",
-    "static/media/Weather.css": "/Weather-App-React/static/media/storm.a1f46c92.png",
-    "static/media/weatherMain.a0502de9.png": "/Weather-App-React/static/media/weatherMain.a0502de9.png"
+    "main.css": "/ReactWeather/static/css/main.05ba29b1.chunk.css",
+    "main.js": "/ReactWeather/static/js/main.d623abe1.chunk.js",
+    "main.js.map": "/ReactWeather/static/js/main.d623abe1.chunk.js.map",
+    "runtime-main.js": "/ReactWeather/static/js/runtime-main.726ccb1f.js",
+    "runtime-main.js.map": "/ReactWeather/static/js/runtime-main.726ccb1f.js.map",
+    "static/js/2.7a43ec14.chunk.js": "/ReactWeather/static/js/2.7a43ec14.chunk.js",
+    "static/js/2.7a43ec14.chunk.js.map": "/ReactWeather/static/js/2.7a43ec14.chunk.js.map",
+    "index.html": "/ReactWeather/index.html",
+    "static/css/main.05ba29b1.chunk.css.map": "/ReactWeather/static/css/main.05ba29b1.chunk.css.map",
+    "static/js/2.7a43ec14.chunk.js.LICENSE.txt": "/ReactWeather/static/js/2.7a43ec14.chunk.js.LICENSE.txt",
+    "static/media/Weather.css": "/ReactWeather/static/media/storm.a1f46c92.png",
+    "static/media/weatherMain.a0502de9.png": "/ReactWeather/static/media/weatherMain.a0502de9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.225c7cb5.js",
+    "static/js/runtime-main.726ccb1f.js",
     "static/js/2.7a43ec14.chunk.js",
-    "static/css/main.1b806c6a.chunk.css",
+    "static/css/main.05ba29b1.chunk.css",
     "static/js/main.d623abe1.chunk.js"
   ]
 }
